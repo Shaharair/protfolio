@@ -1,0 +1,501 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+a{
+    text-decoration: none;
+}
+.menu-bg{
+    position: absolute;
+    width: 100%;
+    z-index: 999;
+}
+/* navbar part start */
+.menu-bg ul li{
+    padding-left: 20px;
+}
+.menu-bg ul li a{
+    color: black;
+    font-size: 18px;
+    font-weight: 500;
+    font-family: 'Open Sans', sans-serif;
+}
+/* navbar part end */
+/* heading part start */
+#heading{
+    background-color: antiquewhite;
+    border-radius: 7px;
+}
+.heading_main{
+    position: relative;
+}
+.heading_text{
+    padding-top: 180px;
+    padding-bottom: 104px;
+    position: relative;
+    z-index: 999;
+}
+.heading_text h4{
+    color: #FDC435;
+    font-size: 18px;
+    font-weight: 500;
+    font-family: 'Open Sans', sans-serif;
+    text-transform: uppercase;
+}
+.heading_text h3{
+    color: black;
+    font-size: 40px;
+    font-weight: 700;
+    font-family: 'Open Sans', sans-serif;
+}
+.heading_text p{
+    color: darkblue;
+    font-size: 22px;
+    font-weight: 500;
+    font-family: 'Open Sans', sans-serif;
+}
+.heading_text h5{
+    color: black;
+    font-size: 18px;
+    font-weight: 500;
+    font-family: 'Open Sans', sans-serif;
+    border: 2px solid darkorange;
+    width: 200px;
+    height: 70px;
+    border-radius: 20px;
+    text-align: center;
+    line-height: 70px;
+    transition: 0.5s;
+}
+.heading_text h5:hover{
+    background-color: darkorange;
+    color: white;
+}
+.heading_ban{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+.heading_man{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+/* heading part end */
+/* about part start */
+#about{
+    background-color: bisque;
+    border-radius: 7px;
+}
+.about_main{
+    margin-top: 128px;
+    margin-bottom: 128px;
+    padding-top: 130px;
+    padding-bottom: 130px;
+}
+.about_text h3{
+    color: black;
+    font-size: 40px;
+    font-weight: 700;
+    font-family: 'Open Sans', sans-serif;
+}
+.about_text p{
+    color: darkblue;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: 'Open Sans', sans-serif;
+}
+.about_mail h4{
+    color: black;
+    font-size: 24px;
+    font-weight: 600;
+    font-family: 'Open Sans', sans-serif;
+    margin-left: 40px;
+}
+.about_mail h6{
+    color: black;
+    font-size: 20px;
+    font-weight: 500;
+    font-family: 'Open Sans', sans-serif;
+}
+.about_email h4{
+    color: black;
+    font-size: 24px;
+    font-weight: 600;
+    font-family: 'Open Sans', sans-serif;
+    margin-left: 80px;
+}
+.about_email h6{
+    color: black;
+    font-size: 20px;
+    font-weight: 600;
+    font-family: 'Open Sans', sans-serif;
+}
+.about_date h4{
+    color: black;
+    font-size: 24px;
+    font-weight: 600;
+    font-family: 'Open Sans', sans-serif;
+    margin-left: 50px;
+}
+.about_date h6{
+    color: black;
+    font-size: 20px;
+    font-weight: 600;
+    font-family: 'Open Sans', sans-serif;
+    margin-left: 50px;
+}
+/* about part end */
+/* servise part start */
+.servise_main{
+    padding-bottom: 50px;
+}
+.servise_heading h3{
+    color: black;
+    font-size: 40px;
+    font-weight: 700;
+    font-family: 'Open Sans', sans-serif;
+}
+/* servise part end */
+/* home part start */
+.home_text{
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+    padding-top: 40px;
+    padding-bottom: 40px;
+    border-radius: 10px;
+}
+.home_text i{
+    margin-left: 20px;
+}
+.home_text h3{
+    color: black;
+    font-size: 30px;
+    font-weight: 700;
+    font-family: 'Open Sans', sans-serif;
+    text-transform: uppercase;
+    margin-left: 20px;
+}
+.home_text p{
+    color: darkblue;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Open Sans', sans-serif;
+    margin-left: 20px;
+}
+/* home part end */
+/* blog part start */
+.blog_main{
+    padding-top: 128px;
+    padding-bottom: 50px;
+}
+.blog_heading h3{
+    color: black;
+    font-size: 40px;
+    font-weight: 700;
+    font-family: 'Open Sans', sans-serif;
+}
+/* blog part end */
+/* hire part start */
+.hire_text ul li{
+    color: darkblue;
+    font-size: 15px;
+    font-weight: 400;
+    font-family: 'Open Sans', sans-serif;
+}
+.hire_text{
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+    padding-top: 40px;
+    padding-bottom: 40px;
+    border-radius: 10px;
+}
+.hire_text i{
+    margin-left: 20px;
+}
+.hire_text h3{
+    color: black;
+    font-size: 30px;
+    font-weight: 700;
+    font-family: 'Open Sans', sans-serif;
+    margin-left: 20px;
+    text-transform: uppercase;
+}
+.hire_text p{
+    color: darkblue;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Open Sans', sans-serif;
+    margin-left: 20px;
+}
+/* hire part end */
+/* banner part start */
+.banner_img img{
+    width: 100%;
+    padding: 20px 20px;
+    background: linear-gradient(131deg, #F4EDE1 16.74%, #98B1C6 103.17%); 
+    border-radius: 20px;
+    margin: 10px 0;
+}
+.banner_main{
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+/* banner part end */
+/* what part end */
+/* story part start */
+.story_main{
+    padding-bottom: 113px;
+}
+.story_text h2{
+    color: black;
+    font-size: 35px;
+    font-weight: 700;
+    font-family: 'Open Sans', sans-serif;
+}
+/* story part end */
+/* view part start */
+.blog_man{
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+.blog_man h3{
+    color: black;
+    font-size: 30px;
+    font-weight: 700;
+    font-family: 'Open Sans', sans-serif;
+    margin-left: 20px;
+}
+.blog_man h4{
+    color: black;
+    font-size: 25px;
+    font-weight: 700;
+    font-family: 'Open Sans', sans-serif;
+    margin-left: 20px;
+}
+.blog_man h5{
+    color: darkblue;
+    font-size: 20px;
+    font-weight: 500;
+    font-family: 'Open Sans', sans-serif;
+    margin-left: 20px;
+}
+.blog_man p{
+    color: darkblue;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: 'Open Sans', sans-serif;
+    margin-left: 20px;
+}
+.blog_ban{
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+.blog_ban h3{
+    color: black;
+    font-size: 30px;
+    font-weight: 700;
+    font-family: 'Open Sans', sans-serif;
+    margin-left: 20px;
+}
+.blog_ban h4{
+    color: black;
+    font-size: 25px;
+    font-weight: 700;
+    font-family: 'Open Sans', sans-serif;
+    margin-left: 20px;
+}
+.blog_ban h5{
+    color: darkblue;
+    font-size: 20px;
+    font-weight: 500;
+    font-family: 'Open Sans', sans-serif;
+    margin-left: 20px;
+}
+.blog_ban p{
+    color: darkblue;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: 'Open Sans', sans-serif;
+    margin-left: 20px;
+}
+.blog_van{
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+.blog_van h4{
+    color: black;
+    font-size: 25px;
+    font-weight: 700;
+    font-family: 'Open Sans', sans-serif;
+    margin-left: 20px;
+}
+.blog_van h5{
+    color: darkblue;
+    font-size: 20px;
+    font-weight: 500;
+    font-family: 'Open Sans', sans-serif;
+    margin-left: 20px;
+}
+.blog_van p{
+    color: darkblue;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: 'Open Sans', sans-serif;
+    margin-left: 20px;
+}
+.blog_can{
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+.blog_can h4{
+    color: black;
+    font-size: 25px;
+    font-weight: 700;
+    font-family: 'Open Sans', sans-serif;
+    margin-left: 20px;
+}
+.blog_can h5{
+    color: darkblue;
+    font-size: 20px;
+    font-weight: 500;
+    font-family: 'Open Sans', sans-serif;
+    margin-left: 20px;
+}
+.blog_can p{
+    color: darkblue;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: 'Open Sans', sans-serif;
+    margin-left: 20px;
+}
+.blog_dan{
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-radius: 10px;
+}
+.blog_dan h4{
+    color: black;
+    font-size: 25px;
+    font-weight: 700;
+    font-family: 'Open Sans', sans-serif;
+    margin-left: 20px;
+}
+.blog_dan h5{
+    color: darkblue;
+    font-size: 20px;
+    font-weight: 500;
+    font-family: 'Open Sans', sans-serif;
+    margin-left: 20px;
+}
+.blog_dan p{
+    color: darkblue;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: 'Open Sans', sans-serif;
+    margin-left: 20px;
+}
+.blog_on{
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-radius: 10px;
+}
+.blog_on h4{
+    color: black;
+    font-size: 25px;
+    font-weight: 700;
+    font-family: 'Open Sans', sans-serif;
+    margin-left: 20px;
+}
+.blog_on h5{
+    color: darkblue;
+    font-size: 20px;
+    font-weight: 500;
+    font-family: 'Open Sans', sans-serif;
+    margin-left: 20px;
+}
+.blog_on p{
+    color: darkblue;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: 'Open Sans', sans-serif;
+    margin-left: 20px;
+}
+/*view part end */
+/* footer part start */
+#footer{
+    background-color: #FFF8F3;
+    margin-top: 130px;
+    margin-bottom: 130px;
+    border-radius: 7px;
+}
+.footer_main{
+    padding-top: 130px;
+    padding-bottom: 130px;
+}
+.footer_text h2{
+    color: black;
+    font-size: 30px;
+    font-weight: 700;
+    font-family: 'Open Sans', sans-serif;
+}
+.footer_text p{
+    color: #757575;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Open Sans', sans-serif;
+}
+.footer_text i{
+    padding-left: 20px;
+}
+.footer_input h2{
+    color: black;
+    font-size: 30px;
+    font-weight: 700;
+    font-family: 'Open Sans', sans-serif;
+}
+.footer_input input{
+    border: none;
+    margin-top: 30px;
+    padding: 50px 50px;
+    border-radius: 7px;
+}
+.footer_one input{
+    padding: 100px 50px;
+}
+.footer_button{
+    margin-top: 50px;
+}
+.footer_button a{
+    color: black;
+    padding: 19px 36px;
+    border: 2px solid #FD6E0A;
+    font-size: 20px;
+    font-weight: 600;
+    border-radius: 10px;
+    transition: 0.5s;
+}
+.footer_button a:hover{
+    background-color: #FD6E0A;
+    color: white;
+}
+.footer_button h3{
+    color: black;
+    font-size: 24px;
+    font-weight: 600;
+    font-family: 'Open Sans', sans-serif;
+    margin-top: 50px;
+}
+/* footer part end */

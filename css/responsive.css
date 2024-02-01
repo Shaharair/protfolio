@@ -1,0 +1,48 @@
+@media (max-width:575px){
+    .heading_text h4{
+        color: black;
+        font-size: 18px;
+        font-weight: 600;
+    }
+    .menu-bg button{
+        border: 4px solid red;
+    }
+    .menu-bg .navbar-toggler i{
+        color: red;
+        font-size: 30px;
+    }
+}
+@media (min-width:576px) and (max-width:767px){
+    .heading_text h4{
+        color: black;
+        font-size: 18px;
+        font-weight: 600;
+    }
+    .menu-bg button{
+        border: 4px solid red;
+    }
+    .menu-bg .navbar-toggler i{
+        color: red;
+        font-size: 30px;
+    }
+}
+@media (min-width:768px) and (max-width:991px){
+    .heading_text h4{
+        color: black;
+        font-size: 18px;
+        font-weight: 600;
+    }
+    .menu-bg button{
+        border: 4px solid red;
+    }
+    .menu-bg .navbar-toggler i{
+        color: red;
+        font-size: 30px;
+    }
+    .hire_text{
+        margin-bottom: 20px;
+    }
+    .home_text{
+        margin-bottom: 20px;
+    }
+}
